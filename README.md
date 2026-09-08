@@ -106,15 +106,20 @@ Adam
 为了比较不同优化算法的训练效果，使用相同线性回归任务，对以下算法进行 Loss 曲线比较：
 实验结果：通过 Loss 曲线可以观察不同优化器在收敛速度和稳定性方面的差异。
 <img width="1000" height="600" alt="a77f36214479ca2dd008af9b5efd62bc" src="https://github.com/user-attachments/assets/99902dbb-b553-4c40-a7c5-aff7163084e8" />
-四、项目特点
-使用 NumPy 从零实现深度学习训练流程、模拟 PyTorch 风格 API、理解梯度下降及优化器原理、将模型、损失函数、优化器、数据集进行模块化设计
-五、开发环境
-主要依赖numpy、pandas、matplotlib
-六、运行方式
-安装依赖：pip install numpy pandas matplotlib
-运行：python runs/zgtorch_train.py
-七、项目地址
-https://github.com/zhanglilimmm/my-AI-project-
+## 四、项目特点
+
+- 使用 NumPy 从零实现深度学习训练流程
+- 模拟 PyTorch 风格 API
+- 理解梯度下降及优化器原理
+- 将模型、损失函数、优化器、数据集进行模块化设计
+## 五、开发环境
+主要依赖：
+- numpy
+- pandas
+- matplotlib
+## 六、运行方式
+### 1. 安装依赖
+pip install numpy pandas matplotlib
 
 
 
