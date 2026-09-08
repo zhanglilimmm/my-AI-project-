@@ -39,15 +39,18 @@
 - RMSProp
 - Adadelta
 - Adam
-## 4. 自动求导（Autograd））
-实现基础梯度计算机制：- 保存计算过程中的梯度信息- 反向传播计算参数梯度- 支持模型参数更新
+## 4. 自动求导（Autograd）
+实现基础梯度计算机制：
+- 保存计算过程中的梯度信息
+- 反向传播计算参数梯度
+- 支持模型参数更新
 训练流程模拟 PyTorch：
 optimizer.zero_grad()
-↓
+        ↓
 model(input)
-↓
+        ↓
 loss.backward()
-↓
+        ↓
 optimizer.step()
 二、项目结构
 zgtorch
