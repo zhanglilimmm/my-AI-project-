@@ -278,7 +278,7 @@ python runs/zgtorch_train.py
 
 GitHub：
 
-https://github.com/zhanglilimmm/my-AI-project-
+https://github.com/zhanglilimmm/zgtorch
 
 
 
